@@ -1,0 +1,20 @@
+
+.spin {
+    animation-name: spinAnimation;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes spinAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+
+  

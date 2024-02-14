@@ -1,0 +1,115 @@
+let leftImageElement = document.getElementById("leftimgElm");
+let middleImageElement = document.getElementById("middleimgElm");
+let rightImageElement = document.getElementById("rightimgElm");
+let counterElement = document.getElementById("counterElm");
+let timerElement = document.getElementById("timerElm");
+let totalCountValue = 0;
+const defaultTimeInMillis = 3000;
+
+let imageGrid = [
+  ["Images/widow.jpg", "Images/wonder.jpg", "Images/amer.jpg"],
+  ["Images/Batman.jpg", "Images/Superman.jpg", "Images/caption.jpg"],
+  ["Images/Tom.jpg", "Images/Thanos.jpg", "Images/LOKI.jpg"]
+];
+
+counterElement.innerHTML = totalCountValue;
+
+let timeRefreshTimeout;
+let timerIntervalId;
+
+function updateImages() {
+  let randomIndices = () => [Math.floor(Math.random() * 3), Math.floor(Math.random() * 3)];
+  let [leftFirstIdx, leftSecondIdx] = randomIndices();
+  let [middleFirstIdx, middleSecondIdx] = randomIndices();
+  let [rightFirstIdx, rightSecondIdx] = randomIndices();
+
+  leftImageElement.src = imageGrid[leftFirstIdx][leftSecondIdx];
+  middleImageElement.src = imageGrid[middleFirstIdx][middleSecondIdx];
+  rightImageElement.src = imageGrid[rightFirstIdx][rightSecondIdx];
+
+  totalCountValue += 3; // Increment the count by 3, as there are 3 images
+  counterElement.innerHTML = totalCountValue;
+}
+
+function updateSingleImage(imageElem) {
+  let [randomFirstIdx, randomSecondIdx] = randomIndices();
+  imageElem.src = imageGrid[randomFirstIdx][randomSecondIdx];
+  setTimeout(() => imageElem.classList.add('spin'), 10);
+  totalCountValue++;
+  counterElement.innerHTML = totalCountValue;
+}
+
+function randomIndices() {
+  return [Math.floor(Math.random() * 2 + 1), Math.floor(Math.random() * 2 + 1)];
+}
+
+function do_animation( event ) {
+target = event.srcElement;
+target.classList.remove('spin');
+setTimeout( () => {target.classList.add('spin');}, 0 );
+}
+
+function updateTimeInterval() {
+  let newTimeInMilliseconds = parseInt(document.querySelector("#takeTimeElm").value);
+  if (isNaN(newTimeInMilliseconds) || newTimeInMilliseconds < 500 || newTimeInMilliseconds > 10000) {
+    newTimeInMilliseconds = defaultTimeInMillis;
+  }
+  clearInterval(timeRefreshTimeout);
+  clearInterval(timerIntervalId);
+  startTimer(newTimeInMilliseconds);
+  timeRefreshTimeout = setInterval(updateImages, newTimeInMilliseconds);
+}
+
+function startTimer(durationInMillis) {
+  let timerValue = durationInMillis / 1000;
+  timerIntervalId = setInterval(() => {
+    timerValue -= 1;
+    displayTimer(timerValue);
+    if (timerValue <= 0) {
+      clearImages();
+      timerValue = durationInMillis / 1000; // Reset the timer
+    }
+    updateTimerColor(timerValue, durationInMillis);
+  }, 1000);
+}
+
+function displayTimer(seconds) {
+  timerElement.innerHTML = seconds < 10 ? "0" + seconds : seconds;
+}
+
+function updateTimerColor(timerValue, durationInMillis) {
+  const totalDuration = durationInMillis / 1000;
+  const oneThirdDuration = totalDuration / 3;
+  const twoThirdDuration = (totalDuration * 2) / 3;
+  timerElement.style.backgroundColor = timerValue >= twoThirdDuration
+    ? "green"
+    : timerValue >= oneThirdDuration
+    ? "yellow"
+    : "red";
+}
+
+function clearImages() {
+  leftImageElement.src = "";
+  middleImageElement.src = "";
+  rightImageElement.src = "";
+}
+
+leftImageElement.classList.add('spin');
+middleImageElement.classList.add('spin');
+rightImageElement.classList.add('spin');
+
+document.querySelector("#takeTimeElm").addEventListener("change", updateTimeInterval);
+leftImageElement.addEventListener("click", (event) => {
+  updateSingleImage(leftImageElement);
+  do_animation(event);
+});
+middleImageElement.addEventListener("click", (event) => {
+  updateSingleImage(middleImageElement);
+  do_animation(event);
+});
+rightImageElement.addEventListener("click", (event) => {
+  updateSingleImage(rightImageElement);
+  do_animation(event);
+});
+
+updateTimeInterval();
