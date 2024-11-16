@@ -1,0 +1,44 @@
+"""
+Performs a binary search to find the index of a target element in a sorted list.
+    
+Parameters:
+    a (list): A sorted list of elements to search.
+    low (int): The starting index of the search range.
+    high (int): The ending index of the search range.
+    x (int): The target element to search for.
+
+Returns:
+    int: The index of the target element if found, otherwise None.
+"""
+def binary_search(a, low, high, x):
+    # Check if the search range is valid
+    if high >= low:
+        # Calculate the middle index of the current range
+        mid = (high + low) // 2
+        # If the middle element is the target, return the index
+        if a[mid] == x:
+            return mid
+        # If the middle element is greater than the target, search in the left half
+        elif a[mid] > x:
+            return binary_search(a, low, mid - 1, x)
+        # If the middle element is less than the target, search in the right half
+        else:
+            return binary_search(a, mid + 1, high, x)
+    # If the target is not in the list, return None
+    else:
+        return None
+
+# List of elements to search within
+data = [2, 3, 4, 10, 40]
+
+# Target element to search for
+num = 10
+
+# Perform binary search and store the result in 'index'
+index = binary_search(data, 0, len(data) - 1, num)
+
+# Check if the target element was found and print the result
+if index is not None:
+    print("Number found at index", str(index))
+else:
+    print("Number is not in the list")
