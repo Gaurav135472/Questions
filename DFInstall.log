@@ -1,0 +1,138 @@
+2024-06-18 15:37:57 [932-528] :: Info :: 
+2024-06-18 15:37:57 [932-528] :: Info :: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2024-06-18 15:37:57 [932-528] :: Info :: DF Installer version: 8.63.220.5634
+2024-06-18 15:37:57 [932-528] :: Info :: Check for supported platforms.
+2024-06-18 15:37:57 [932-528] :: Info :: 1.0 - Start Pre-installation checks.
+2024-06-18 15:37:57 [932-528] :: Info :: 1.2 - Detected Windows Desktop (Non-server Edition)
+2024-06-18 15:37:57 [932-528] :: Info :: 1.11 - Pre-installation tests completed SUCCESSFULLY.
+2024-06-18 15:37:57 [932-528] :: Info :: 2.0 - Read Configuration and Setup Flags.
+2024-06-18 15:37:57 [932-528] :: Info :: 2.5 - Read Configuration and Setup Flags completed SUCCESSFULLY.
+2024-06-18 15:37:57 [932-528] :: Info :: 3.0 - Check for upgradability.
+2024-06-18 15:37:57 [932-528] :: Info :: Clean Installation for the first time.
+2024-06-18 15:37:57 [932-528] :: Info :: Clean Installation for the first time.
+2024-06-18 15:37:57 [932-528] :: Info :: 5.0 - Preprocess Thawspace volume drives.
+2024-06-18 15:37:57 [932-528] :: Info :: 5.9 - Preprocess Thawspace Volume Drives completed SUCCESSFULLY.
+2024-06-18 15:37:59 [932-528] :: Info :: Check for minimum available disk space
+2024-06-18 15:37:59 [932-528] :: Info :: Start DeepFreeze Installation
+2024-06-18 15:37:59 [932-528] :: Info :: Handle License Validation
+2024-06-18 15:37:59 [932-528] :: Info :: Handle Existing ThawSpaces
+2024-06-18 15:38:00 [932-528] :: Info :: Starting DeepFreeze Installation-1
+2024-06-18 15:38:00 [932-528] :: Info :: Setup DeepFreeze Install folder
+2024-06-18 15:38:00 [932-528] :: Info :: Copy DeepFreeze files
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=DeepFreezeAdapter.dll To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=WUCommandLine.exe To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=DFServ.exe To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: Copy MOF files
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=FaronicsProduct.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=FaronicsProduct_v2.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=DeepFreezeWorkstation.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: MOF Compiler File = C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\1.bat
+2024-06-18 15:38:00 [932-528] :: Info :: Copy MOF files
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=FaronicsProduct.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=FaronicsProduct_v2.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: Copy File From=DeepFreezeWorkstation.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:00 [932-528] :: Info :: MOF Compiler File = C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\1.bat
+2024-06-18 15:38:00 [932-528] :: Info :: Install MOF files
+2024-06-18 15:38:00 [932-528] :: Info :: Install DeepFreeze Service
+2024-06-18 15:38:01 [932-528] :: Info :: Detected Seed Install
+2024-06-18 15:38:01 [932-528] :: Info :: Handle Miscellaneous Registry
+2024-06-18 15:38:01 [932-528] :: Info :: Copy MOF files
+2024-06-18 15:38:01 [932-528] :: Info :: Copy File From=FaronicsProduct.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:01 [932-528] :: Info :: Copy File From=FaronicsProduct_v2.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:01 [932-528] :: Info :: Copy File From=DeepFreezeWorkstation.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:38:01 [932-528] :: Info :: MOF Compiler File = C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\1.bat
+2024-06-18 15:38:01 [932-528] :: Info :: Completed DeepFreeze Installation
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: 
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: DF Installer version: 8.71.220.5734
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: Check for supported platforms.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: 1.0 - Start Pre-installation checks.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: 1.2 - Detected Windows Desktop (Non-server Edition)
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: 1.11 - Pre-installation tests completed SUCCESSFULLY.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: 2.0 - Read Configuration and Setup Flags.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: 2.6 - Read Configuration and Setup Flags completed SUCCESSFULLY.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: 3.0 - Check for upgradability.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: Clean Installation for the first time.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: Clean Installation for the first time.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: 4.0 - Detected Windows 10 version or higher. Check for Windows Updates that are pending configuration.
+2024-06-18 15:42:59 [ 3272][ 3372] [I] :: Windows Updates Query Package Information - Version = 8.71.220.5734
+2024-06-18 15:42:59 :: Windows Updates Command Line - Version = 8.71.220.5734
+2024-06-18 15:43:00 :: Package Count = 59
+2024-06-18 15:43:03 :: [54] NAME=Package_for_KB5015684~31bf3856ad364e35~amd64~~19041.1799.1.2 :: TYPE=Update :: DESCRIPTION=Fix for KB5015684 :: INSTALL-TIME(UTC)=05:15:24 Saturday, February 03, 2024 :: STATE=Installed :: RESTART=Required (Override Restart Required - More than 6 hrs have elapsed)
+2024-06-18 15:43:03 [ 3272][ 3372] [I] :: NO updates are IN-PROGRESS and PENDING configuration. NO Reboot is REQUIRED or PENDING - Proceed with DeepFreeze installation.
+2024-06-18 15:43:03 [ 3272][ 3372] [I] :: 5.0 - Preprocess Thawspace volume drives.
+2024-06-18 15:43:03 [ 3272][ 3372] [I] :: 5.9 - Preprocess Thawspace Volume Drives completed SUCCESSFULLY.
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: Check for minimum available disk space
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: Start DeepFreeze Installation
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: Handle License Validation
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationGroupPolicyUsingWMI() - ENTER
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationGroupPolicyUsingWMI() - Lower = 0
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationGroupPolicyUsingWMI() - Upper = 0
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationGroupPolicyUsingWMI() - EXIT - SecurityServicesRunning=0
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationGroupPolicyUsingWMI() - Lower = 0
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationGroupPolicyUsingWMI() - Upper = 0
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationGroupPolicyUsingWMI() - EXIT - SecurityServicesConfigured=0
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationRegistry() - ENTER - Checking Registry=SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: TFormMain::CheckCoreIsolationGroupPolicyUsingRegistry() - ENTER - Checking Registry=SOFTWARE\Policies\Microsoft\Windows\DeviceGuard
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: PROCEED with DeepFreeze Installation as Core Isolation is DISABLED on this workstation.
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: Virtual memory settings successfully updated
+2024-06-18 15:43:11 [ 3272][ 3372] [I] :: Handle Existing ThawSpaces
+2024-06-18 15:43:12 [ 3272][ 3372] [I] :: Saved Custom WAN information
+2024-06-18 15:43:12 [ 3272][ 3372] [I] :: Starting DeepFreeze Installation-1
+2024-06-18 15:43:12 [ 3272][ 3372] [I] :: Setup DeepFreeze Install folder
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy DeepFreeze files
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=DFC.exe To=C:\WINDOWS\system32\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=FrzState2k.exe To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\\_$Df\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=DeepFreezeAdapter.dll To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=WUCommandLine.exe To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=DFServ.exe To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy MOF files
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=FaronicsProduct.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=FaronicsProduct_v2.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=DeepFreezeWorkstation.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: MOF Compiler File = C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\1.bat
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy MOF files
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=FaronicsProduct.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=FaronicsProduct_v2.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Copy File From=DeepFreezeWorkstation.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: MOF Compiler File = C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\1.bat
+2024-06-18 15:43:14 [ 3272][ 3372] [I] :: Install MOF files
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install DeepFreeze Service
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Detected Workstation Install
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Copy File From=DeepFrz.sys To=C:\WINDOWS\system32\drivers\
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install Driver (DeepFrz.sys)
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install Volume Filters
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install Disk Filters
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install Mouse Filter
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install Keyboard Filter
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install/Upgrade FarDisk Driver
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Copy File From=DfDiskLo.sys To=C:\WINDOWS\system32\drivers\
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install Driver (DFDiskLo.sys)
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install Disk Lower Filter
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Copy File From=DFRegMon.sys To=C:\WINDOWS\system32\drivers\
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Install Driver (DFRegMon.sys)
+2024-06-18 15:43:15 [ 3272][ 3372] [E] :: DInstall2000::UnInstallDFFilter() - 1 - OpenService() FAILED with Error= 0x00000424 - The specified service does not exist as an installed service. 
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: NTFS File System supported
+2024-06-18 15:43:15 [ 3272][ 3372] [I] :: Deleting contents of the folder before mapping. Folder=C:\WINDOWS\EventLogs
+2024-06-18 15:43:17 [ 3272][ 3372] [I] :: Successfully created cache for Windows Event Logs
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Handle BootStat
+2024-06-18 15:43:37 [ 3272][ 3372] [E] :: DInstall2000::RenameBootStat() - 1. MoveFileEx() call FAILED with an Error = 0x00000020 - The process cannot access the file because it is being used by another process. 
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Handle Crash Control
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Handle Check Disk
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Handle Miscellaneous Registry
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Copy MOF files
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Copy File From=FaronicsProduct.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Copy File From=FaronicsProduct_v2.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Copy File From=DeepFreezeWorkstation.mof To=C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: MOF Compiler File = C:\Program Files (x86)\Faronics\Deep Freeze\Install C-0\1.bat
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Install ThawSpaces
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Determining if existing ThawSpaces need to be retained
+2024-06-18 15:43:37 [ 3272][ 3372] [I] :: Installing ThawSpace components
+2024-06-18 15:43:44 [ 3272][ 3372] [I] :: Completed DeepFreeze Installation
+2024-06-18 15:43:49 [ 3272][ 3372] [I] :: KcExitWindows::KcExitWindows(1.0) - ENTER
+2024-06-18 15:43:49 [ 3272][ 3372] [I] :: KcExitWindows::KcExitWindows(1.1) - Modify Process Privileges
+2024-06-18 15:43:49 [ 3272][ 3372] [I] :: KcExitWindows::KcExitWindows(1.2) - Launch Restart/Shutdown Thread
+2024-06-18 15:43:49 [ 3272][ 7484] [I] :: ENTER - Flags = 0x00000001 (0=S 1=R 2=PO 3=LO)
+2024-06-18 15:43:50 [ 3272][ 7484] [I] :: 1.0 - REBOOT
+2024-06-18 15:43:50 [ 3272][ 7484] [I] :: 1.3 - InitiateShutdownW() completed SUCCESSFULLY
+2024-06-18 15:43:50 [ 3272][ 7484] [I] :: 1.4 - 60 sec delay
