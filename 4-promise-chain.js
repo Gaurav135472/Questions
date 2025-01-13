@@ -42,3 +42,6 @@ async function calculateTime(t1, t2, t3) {
 
 module.exports = calculateTime;
 
+
+// there can be many way of solving these quest however this is one pf them
+
