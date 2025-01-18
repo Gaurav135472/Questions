@@ -1,0 +1,35 @@
+Question 1: Avoid or Transfer
+Approach:
+Avoid: Recommend hiring a professional construction team to build the dividing wall. This eliminates the risk of employees attempting construction and reduces accident liability. Update the project scope to include this change if the client agrees to fund it.
+Transfer: Propose that the client directly hires and contracts a construction company. Any risks related to the construction are transferred to the contractor through a formal agreement, reducing the project's exposure.
+Question 2: Risk Table and Analysis
+Table Format:
+Risk	Frequency (Low/Med/High)	Severity (Low/Med/High)	Comments
+Power outage on installation day	Medium	High	Schedule backup power arrangements.
+Corruption of backup files	Low	High	Implement rigorous backup validation.
+Company van breakdown on delivery day	Medium	Medium	Arrange alternate transport options.
+Standard keyboards instead of ergonomic	Low	Low	Monitor order accuracy closely.
+Employees ill on the day of installation	Medium	Medium	Have extra staff on standby.
+Evaluation of Mrs. Jones' Concerns:
+Mrs. Jones' concerns are legitimate because the listed risks could cause significant delays or issues during the project. Proper risk management ensures preparedness and minimizes potential disruptions.
+
+Question 3: Mitigating Actions and Their Effects
+Action	Scope	Time	Cost	Quality
+Extra employee on standby	No change	Minimal impact	Increased	Maintained
+Order 1 extra machine for every 50 machines	No change	No impact	Increased	Improved (less downtime risk)
+Meet client twice instead of once	Scope expanded	Increased	Increased	Improved (better understanding)
+Reduce training to 85 staff instead of 100	Scope reduced	Reduced	Reduced	No change
+Question 4: Positive Risk Responses
+Opportunity Response:
+Exploit: Offer to include upgrading the legacy network equipment in the project scope, ensuring high network performance.
+Effect on Risk Register: Add this as an opportunity in the register, documenting potential cost savings or efficiency gains.
+Question 5: Risk Tolerance and Stakeholder Confidence
+Questions for Mrs. Jones:
+What is your priority: long-term reliability or upfront cost savings?
+How much budget flexibility do we have for selecting a higher-tier thin client model?
+Are you comfortable with the potential for slightly lower performance if we choose the less expensive model?
+Would you like to test a sample model before making the final decision?
+Confidence Building:
+Present a comparison chart showing performance vs. cost for each model.
+Provide data or case studies on reliability and ROI for the selected model.
+Offer a phased rollout option to evaluate the performance of the chosen thin client model.
